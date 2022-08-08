@@ -5,8 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Gsm.Control;
 
-namespace Gsm.Gsm
-{
+namespace Gsm
+{ 
     public interface IGameScreenManager
     {
         void Add(IGameScreen screen);

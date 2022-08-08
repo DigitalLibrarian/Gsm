@@ -3,7 +3,7 @@ using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Gsm.Control;
 using Moq;
 
-namespace Gsm.Gsm.Tests
+namespace Gsm.Tests
 {
     [TestClass]
     public class GameScreenTests

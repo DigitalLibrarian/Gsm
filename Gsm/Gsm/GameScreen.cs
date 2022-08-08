@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Gsm.Control;
 
-namespace Gsm.Gsm
+namespace Gsm
 {
     public abstract class GameScreen : IGameScreen
     {

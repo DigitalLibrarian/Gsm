@@ -5,7 +5,7 @@ using Moq;
 using System.Collections.Generic;
 
 
-namespace Gsm.Gsm.Tests
+namespace Gsm.Tests
 {
     [TestClass]
     public class GameScreenManagerTests
