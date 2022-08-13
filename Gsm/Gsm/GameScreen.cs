@@ -26,9 +26,9 @@ namespace Gsm
         public virtual void Load() { }
         public virtual void Unload() { }
 
-        public abstract void Draw();
-        public abstract void Update();
-        public abstract void OnKeyPress(KeyPressEventArgs args);
+        public virtual void Draw() { }
+        public virtual void Update() { }
+        public virtual void OnKeyPress(KeyPressEventArgs args) { }
 
         public void OnEnter(IGameScreenManager screenManager)
         {
@@ -49,7 +49,5 @@ namespace Gsm
                 ScreenManager.Remove(this);
             }
         }
-
-
     }
 }
